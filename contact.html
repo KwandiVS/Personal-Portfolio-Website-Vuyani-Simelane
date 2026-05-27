@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuyani Kwandile Simelane | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">V K S</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="title-bar">Get In Touch</div>
+        
+        <div class="grid-2">
+            <div>
+                <div class="card">
+                    <h3>Contact Information</h3>
+                    <br>
+                    <p>For official project consultations, systems architecture requests, or networking support services, feel free to connect via direct channels:</p>
+                    <br>
+                    <ul class="bullet-list" style="list-style: none; margin-left: 0; padding-left: 0;">
+                        <li><strong>Location:</strong> Manzini, Eswatini</li>
+                        <li><strong>Direct Phone:</strong> +268 7679 0096</li>
+                        <li><strong>Secure Email:</strong> kwandivs@gmail.com</li>
+                        <li><strong>GitHub Repository:</strong> ://github.com</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Professional References</h3>
+                    <br>
+                    <ul class="bullet-list">
+                        <li><strong>Brightwell Litchfield</strong> — Phone: +268 7613 3868</li>
+                        <li><strong>Bonsile Dlamini</strong> — Phone: +268 7603 7562</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <h3>Inquiry Form</h3>
+                    <form action="#" method="POST" class="contact-form" onsubmit="alert('Thank you! Your message was saved locally.'); return false;">
+                        <div class="form-group">
+                            <label for="client_name">Full Name</label>
+                            <input type="text" id="client_name" name="client_name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="client_email">Email Address</label>
+                            <input type="email" id="client_email" name="client_email" required placeholder="johndoe@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message_subject">Subject</label>
+                            <input type="text" id="message_subject" name="message_subject" required placeholder="Project Proposal">
+                        </div>
+                        <div class="form-group">
+                            <label for="message_body">Message Body</label>
+                            <textarea id="message_body" name="message_body" rows="6" required placeholder="Outline your technical requirements here..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vuyani Kwandile Simelane. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
